@@ -1,0 +1,384 @@
+ body{
+     background-color: #4642b8;
+     padding: 120px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+ #menu{
+  background-color:#0B2429;
+  margin-bottom: 50px;
+ }
+
+ #menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+ }
+
+ #menu ul li{
+  display: inline-block;
+ }
+
+ #menu ul li a{
+  color: white;
+  display: block;
+  padding: 20px 26px;
+  text-decoration: none;
+ }
+
+ #menu ul li a:hover{
+  background-color: #42B881;
+ }
+
+.seccion{
+height: 366px;
+position: absolute;
+left: 35%;
+}
+
+h2{
+    text-align: center;
+}
+
+#primer_ejercicio_fondo{
+    width: 400px;
+    height: 300px;
+    background: #5d3a3a;
+  }
+
+ #primer_ejercicio {
+    width:200px;
+    height:200px;
+    background:#b5e0ba;
+    position:relative;
+    top:-300px;
+  }
+
+  #segundo_ejercicio_fondo{
+    width: 400px;
+    height: 300px;
+    background:#62374e;
+  }
+  .segundo_ejercicio{
+    width:50px;
+    height:50px;
+    background:#fdc57b;
+    position:relative;
+  }
+  #segundo_ejercicio_primero{
+    top:-252px;
+    left:52px;
+  }
+  #segundo_ejercicio_segundo{
+    top:-146px;
+    left:52px;
+  }
+  #segundo_ejercicio_tercero{
+    top:-350px;
+    left:292px;
+  }
+  #segundo_ejercicio_cuarto{
+    top:-246px;
+    left:292px;
+  }
+
+  #tercer_ejercicio_fondo{
+    width: 400px;
+    height: 300px;
+    background:#0B2429;
+  }
+
+  .tercer_ejercicio{
+    width:150px;
+    height:150px;
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+    position:relative;
+  }
+
+  #tercer_ejercicio_primero{
+    background:#1A4341;
+    top:67px;
+    left:70px;
+  }
+
+  #tercer_ejercicio_segundo{
+    background:#998235;
+    top:-83px;
+    left:120px; 
+  }
+
+  #tercer_ejercicio_tercero{
+    background:#F3AC3C;
+    top:-233px;
+    left:170px;  
+  }
+
+  #cuarto_ejercicio{
+    width: 400px;
+    height: 300px;
+    background:#6592CF;
+  }
+
+  #cuarto_ejercicio_primero{
+    width:300px;
+    height:150px;
+    background:#243D83;
+    position:relative;
+    left:52px;
+    top:-227px
+  }
+
+  #cuarto_ejercicio_segundo{
+    width:250px;
+    height:250px;
+    background:#6592CF;
+    position:relative;
+    left:77px;
+    bottom:423px;
+    border-radius:250px 
+  }
+
+  #cuarto_ejercicio_tercero{
+    width:150px;
+    height:150px;
+    background:#243D83;
+    position:relative;
+    left:127px;
+    bottom:623px;
+    border-radius:150px  
+  }
+
+  #cuarto_ejercicio_cuarto{
+    width:50px;
+    height:50px;
+    background:#EEB850;
+    position:relative;
+    left:177px;
+    bottom:723px;
+    border-radius:150px  
+  }
+
+  #quinto_ejercicio_fondo{
+    width: 400px;
+    height: 300px;
+    background:#0B2429;
+  }
+
+  #quinto_ejercicio_primero{
+    width:120px;
+    height:120px;
+    background:#F3AC3C;
+    border-radius:120px;
+    position: relative;
+    left:192px;
+    top:-272px;
+  }
+  .quinto_ejercicio{
+    width:120px;
+    height:120px;
+    border-top-left-radius:120px;
+    border-bottom-left-radius:120px;
+    border-bottom-right-radius:120px; 
+    position: relative;
+  }
+
+  #quinto_ejercicio_segundo{
+    background:#998235;
+    left:132px;
+    top:-328px;  
+  }
+
+  #quinto_ejercicio_tercero{
+    background:#F3AC3C;
+    left:72px;
+    top:-388px;  
+  }
+
+  #sexto_ejercicio_fondo{
+    width: 400px;
+    height: 300px;
+    background:#0B2429;
+  }
+
+  #sexto_ejercicio{
+    width:0;
+    height:0;
+    border-top:70px solid#F3AC3C;
+    border-left:70px solid#F3AC3C;
+    border-right:70px solid#0B2429;
+    border-bottom:70px solid#0B2429;
+    position:relative;
+    top:-300px;
+  }
+
+  #septimo_ejercicio_fondo{
+    background:#1A4341;
+    width: 400px;
+    height: 300px; 
+  }
+  
+  .septimo_ejercicio_a{
+    position:relative;
+    width:50px;
+    height:200px; 
+    border-top-left-radius:25.5px; 
+    border-top-right-radius:25.5px; 
+    background:#F3AC3C;
+  }
+
+  .septimo_ejercicio_b{
+    position:relative;
+    width:50px;
+    height:200px;   
+    border-bottom-left-radius:25.5px; 
+    border-bottom-right-radius:25.5px; 
+    background:#998235;  
+  }
+ #septimo_ejercicio_primero{
+    position:relative;
+    width:50px;
+    height:200px;
+    top:-200px;
+    left:23px;
+ }
+
+ #septimo_ejercicio_segundo{
+    position:relative;
+    width:50px;
+    height:200px;
+    top:-400px;
+    left:173px;
+ }
+
+ #septimo_ejercicio_tercero{
+    position:relative;
+    width:50px;
+    height:200px;
+    top:-600px;
+    left:323px;
+ }
+
+ #septimo_ejercicio_cuarto{
+    position:relative;
+    width:50px;
+    height:200px;
+    top:-900px;
+    left:97px;
+ }
+
+ #septimo_ejercicio_quinto{
+    position:relative;
+    width:50px;
+    height:200px;
+    top:-1100px;
+    left:248px;
+ }
+
+ #octavo_ejercicio_fondo{
+  background:#1A4341;
+  width: 400px;
+  height: 300px; 
+ }
+
+ #octavo_ejercicio_primero{
+  position:relative;
+  width:75px;
+  height:150px;
+  background:#998235;
+  border-radius:125px 0 0 125px;
+  top:-227px;
+  left:127px;
+ }
+
+ #octavo_ejercicio_segundo{
+  position: relative;
+  width:100px;
+  height:100px;
+  background:#F3AC3C;
+  border-radius:0 125px 0 0;
+  top:-398px;
+  left:202px;
+ }
+
+ #octavo_ejercicio_tercero{
+  position: relative;
+  width:30px;
+  height:30px;
+  background:#0B2429;
+  border-radius:50px;
+  top:-443px;
+  left:157px;
+ }
+
+.noveno_ejercicio{
+    height:50px;
+    position:relative;
+    width:400px;
+    top:-8px;
+    left:-8px;
+}
+
+#noveno_ejercicio_primero{
+  background:#F7EC7D;
+}
+
+#noveno_ejercicio_segundo{
+  background:#E38F66;
+}
+
+#noveno_ejercicio_tercero{
+  background:#AA445F;
+  height:100px;
+}
+
+#noveno_ejercicio_cuarto{
+  background:#62306D;
+  height:100px;
+}
+
+#decimo_ejercicio_fondo{
+  background:#E3516E;
+  width: 400px;
+  height: 300px; 
+}
+
+#decimo_ejercicio_primero{
+  width:100px;
+  height:100px;
+  background:#51B5A9;
+  border-top-left-radius:100px;
+  position:relative;
+  top:-244px;
+  left:102px;
+}
+
+#decimo_ejercicio_segundo{
+  width:100px;
+  height:100px;
+  background:#FADE8B;
+  border-top-right-radius:100px;
+  position:relative;
+  top:-344px;
+  left:202px;
+}
+
+#decimo_ejercicio_tercero{
+  width:100px;
+  height:100px;
+  background:#F7F3D7;
+  border-bottom-left-radius:100px;
+  position:relative;
+  top:-344px;
+  left:102px;
+}
