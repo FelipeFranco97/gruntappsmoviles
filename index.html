@@ -2,26 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicios CssBattle</title>
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Ejercicios CssBattle</a></h1>
+        <section id="seccion0" class="mostrar">
+        <h1><a href="index.html" id="titulo">Ejercicios + bonificación CssBattle</a></h1>
         <div id="menu">
             <ul>
-                <li><a href="ejercicio 1.html">Ejercicio 1 </a></li>
-                <li><a href="ejercicio 2.html">Ejercicio 2 </a></li>
-                <li><a href="ejercicio 3.html">Ejercicio 3 </a></li>
-                <li><a href="ejercicio 4.html">Ejercicio 4 </a></li>
-                <li><a href="ejercicio 5.html">Ejercicio 5 </a></li>
-                <li><a href="ejercicio 6.html">Ejercicio 6 </a></li>
-                <li><a href="ejercicio 7.html">Ejercicio 7 </a></li>
-                <li><a href="ejercicio 8.html">Ejercicio 8 </a></li>
-                <li><a href="ejercicio 9.html">Ejercicio 9 </a></li>
-                <li><a href="ejercicio 10.html">Ejercicio 10</a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(2)">Ejercicio 1</a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(3)">Ejercicio 2 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(4)"">Ejercicio 3 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(5)"">Ejercicio 4 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(6)"">Ejercicio 5 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(7)"">Ejercicio 6 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(8)">Ejercicio 7 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(9)">Ejercicio 8 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(10)">Ejercicio 9 </a></li>
+                <li><a href="javascript:void(0)" onclick="cambiarSeccion(11)">Ejercicio 10</a></li>
             </ul>
         </div>
+        <div class="square"></div>
+        <div id="segundo" class="square"></div>
+        </section>
     </header>
+
+    <section id="ejercicio1" class="seccion oculto">
+        <h2>Ejercicio 1</h2>
+            <div id="primer_ejercicio_fondo"></div>
+            <div id="primer_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio2" class="seccion oculto">
+        <h2>Ejercicio 2</h2>
+            <div id="segundo_ejercicio_fondo"></div>
+            <div id="segundo_ejercicio_primero" class="segundo_ejercicio"></div>
+            <div id="segundo_ejercicio_segundo" class="segundo_ejercicio"></div>
+            <div id="segundo_ejercicio_tercero" class="segundo_ejercicio"></div>
+            <div id="segundo_ejercicio_cuarto" class="segundo_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio3" class="seccion oculto">
+        <h2>Ejercicio 3</h2>
+            <div id="tercer_ejercicio_fondo"</div>
+            <div id="tercer_ejercicio_primero" class="tercer_ejercicio"></div>
+            <div id="tercer_ejercicio_segundo" class="tercer_ejercicio"></div>
+            <div id="tercer_ejercicio_tercero" class="tercer_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio4" class="seccion oculto">
+        <h2>Ejercicio 4</h2>
+        <div id="cuarto_ejercicio"></div>
+        <div id="cuarto_ejercicio_primero"></div>
+        <div id="cuarto_ejercicio_segundo"></div>
+        <div id="cuarto_ejercicio_tercero"></div>
+        <div id="cuarto_ejercicio_cuarto"></div>
+    </section>
+
+    <section id="ejercicio5" class="seccion oculto">
+        <h2>Ejercicio 5</h2>
+        <div id="quinto_ejercicio_fondo"></div>
+        <div id="quinto_ejercicio_primero"></div>
+        <div id="quinto_ejercicio_segundo" class="quinto_ejercicio"></div>
+        <div id="quinto_ejercicio_tercero" class="quinto_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio6" class="seccion oculto">
+        <h2>Ejercicio 6</h2>
+        <div id="sexto_ejercicio_fondo"></div>
+        <div id="sexto_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio7" class="seccion oculto">
+        <h2>Ejercicio 7 </h2>
+        <div id="septimo_ejercicio_fondo"></div>
+        <div id="septimo_ejercicio_primero" class="septimo_ejercicio_a"></div>
+        <div id="septimo_ejercicio_segundo" class="septimo_ejercicio_a"></div>
+        <div id="septimo_ejercicio_tercero" class="septimo_ejercicio_a"></div>
+        <div id="septimo_ejercicio_cuarto" class="septimo_ejercicio_b"></div>
+        <div id="septimo_ejercicio_quinto" class="septimo_ejercicio_b"></div>
+    </section>
+
+    <section id="ejercicio8" class="seccion oculto">
+        <h2>Ejercicio 8</h2>
+        <div id="octavo_ejercicio_fondo"></div>
+        <div id="octavo_ejercicio_primero"></div>
+        <div id="octavo_ejercicio_segundo"></div>
+        <div id="octavo_ejercicio_tercero"></div>
+    </section>
+
+    <section id="ejercicio9" class="seccion oculto">
+        <h2>Ejercicio 9</h2>
+        <div id="noveno_ejercicio_primero" class="noveno_ejercicio"></div>
+        <div id="noveno_ejercicio_segundo" class="noveno_ejercicio"></div>
+        <div id="noveno_ejercicio_tercero" class="noveno_ejercicio"></div>
+        <div id="noveno_ejercicio_cuarto" class="noveno_ejercicio"></div>
+    </section>
+
+    <section id="ejercicio10" class="seccion oculto">
+        <h2>Ejercicio 10</h2>
+        <div id="decimo_ejercicio_fondo"></div>
+        <div id="decimo_ejercicio_primero"></div>
+        <div id="decimo_ejercicio_segundo"></div>
+        <div id="decimo_ejercicio_tercero"></div>
+    </section>
+
+    <script src="js/main.min.js"></script>
 </body>
 </html>
